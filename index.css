@@ -183,11 +183,45 @@ img {
 }
 
 .cbutton {
-    width: 70%;
+    width: 20%;
+    border-radius: 15px;
     height: 100%;
 }
 
 .cbutton:active {
+    background-color: #B9B28A;
+    color: white;
+}
+
+.abutton {
+    width: 20%;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.abutton:active {
+    background-color: #B9B28A;
+    color: white;
+}
+
+.bbutton {
+    width: 20%;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.bbutton:active {
+    background-color: #B9B28A;
+    color: white;
+}
+
+.dbutton {
+    width: 20%;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.dbutton:active {
     background-color: #B9B28A;
     color: white;
 }
