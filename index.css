@@ -48,21 +48,25 @@ img {
 }
 
 .items3 {
+    display: flex;
     background-color: #EBE5C2;
     height: 10%;
     width: 85%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .cbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #504B38;
     color: white;
-    width: 40%;
+    width: 17%;
     padding: 12px 20px; 
     box-shadow: 0 4px 10px #504B38;
-    border-radius: 50px;
-    font-size: larger;
+    border-radius: 40px;
+    font-size: xx-small;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     cursor: pointer;
     transition: all 0.2s ease;
@@ -75,6 +79,78 @@ img {
     border: 2px solid #504B38;
 }
 
+.abutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #504B38;
+    color: white;
+    width: 17%;
+    padding: 12px 20px; 
+    box-shadow: 0 4px 10px #504B38;
+    border-radius: 40px;
+    font-size: xx-small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 2px solid transparent; 
+}
+
+.abutton:hover {
+    color: black;
+    transform: scale(1.1);
+    border: 2px solid #504B38;
+}
+
+
+.bbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #504B38;
+    color: white;
+    width: 17%;
+    padding: 12px 20px; 
+    box-shadow: 0 4px 10px #504B38;
+    border-radius: 40px;
+    font-size: xx-small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 2px solid transparent; 
+}
+
+
+.bbutton:hover {
+    color: black;
+    transform: scale(1.1);
+    border: 2px solid #504B38;
+}
+
+
+.dbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #504B38;
+    color: white;
+    width: 17%;
+    padding: 12px 20px; 
+    box-shadow: 0 4px 10px #504B38;
+    border-radius: 40px;
+    font-size: xx-small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 2px solid transparent; 
+}
+
+
+.dbutton:hover {
+    color: black;
+    transform: scale(1.1);
+    border: 2px solid #504B38;
+}
 
 .outside {
     color: white;
